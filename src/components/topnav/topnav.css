@@ -1,0 +1,60 @@
+.topNav {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin-top: 1rem;
+    padding: 1rem;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.topLeft, .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcon {
+    font-size: 2rem;
+    color: #444;
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+.topIcon:hover {
+    transform: scale(1.2);
+}
+
+.topCenter {
+    flex: 6;
+
+}
+.topCenter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.topCenter ul li {
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topProfileImg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.topSearchIcon {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
