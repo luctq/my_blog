@@ -1,0 +1,51 @@
+.login {
+    height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../../public/assets/images/login.jpg");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 3rem;
+}
+
+.loginForm {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 0.8rem 0;
+}
+
+.loginInput {
+    padding: 0.8rem;
+    background-color: white;
+    border: none
+}
+
+.loginButton {
+    margin-top: 1.2rem;
+    background-color: lightcoral;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: none;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 7rem;
+    right: 1rem;
+    background-color: teal;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: none;
+}
