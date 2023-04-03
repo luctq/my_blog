@@ -33,7 +33,7 @@
     flex: 6;
 
 }
-.topCenter ul {
+.topList {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,13 +41,24 @@
     padding: 0;
     list-style-type: none;
 }
-.topCenter ul li {
+.topListItem {
     text-transform: uppercase;
     margin-right: 1.5rem;
     font-size: 1.2rem;
     font-weight: 300;
     cursor: pointer;
 }
+
+.textLink {
+    background: linear-gradient(to right, black, black) left bottom/var(--d, 0) 2px no-repeat;
+    transition: 0.1s ease-in-out;
+}
+
+.textLink:hover {
+    --d: 100%
+}
+
+
 .topProfileImg {
     width: 3rem;
     height: 3rem;
